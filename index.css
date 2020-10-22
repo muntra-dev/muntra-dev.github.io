@@ -223,7 +223,7 @@ th {
   background-color: #0059c3;
   background-image: initial;
 }
-.muntra-widget-button.secondary {
+.secondary .muntra-widget-button {
     background-color: #fff;
     border-color: #52a8ff;
     color: #52a8ff;
