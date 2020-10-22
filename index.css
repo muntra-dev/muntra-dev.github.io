@@ -202,11 +202,11 @@ th {
     flex-direction:row
 }
 .muntra-widget-button {
-  background-color: #52a8ff;
+    background-color: #52a8ff;
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
-    border: 2px solid;
+    border: 4px solid;
     border-color: rgba(0,0,0,0);
     border-radius: 100px;
     color: #ffffff;
@@ -222,6 +222,11 @@ th {
 .muntra-widget-button:hover {
   background-color: #0059c3;
   background-image: initial;
+}
+.muntra-widget-button.secondary {
+    background-color: #fff;
+    border-color: #52a8ff;
+    color: #52a8ff;
 }
 .right-align {
     margin-right: 20px;
