@@ -224,3 +224,7 @@ th {
   background-color: #0059c3;
   background-image: initial;
 }
+.right-align {
+    margin-right: 20px;
+    text-align: right;
+}
