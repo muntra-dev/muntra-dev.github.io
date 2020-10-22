@@ -4,7 +4,10 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 body {
-    margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
 }
 article,
 aside,
@@ -188,7 +191,14 @@ th {
     display: block;
 }
 
-
+.flex-column {
+    display:flex;
+    flex-direction:column
+}
+.flex-row {
+    display:flex;
+    flex-direction:row
+}
 .muntra-widget-button {
   background-color: #52a8ff;
     background-size: cover;
