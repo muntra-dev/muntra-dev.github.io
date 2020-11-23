@@ -23,7 +23,7 @@ menu,
 nav,
 section,
 summary {
-    display: block;
+  display: block;
 }
 audio,
 canvas,
@@ -58,8 +58,11 @@ dfn {
     font-style: italic;
 }
 h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+h2 {
+  margin: 2em 0 0 0;
 }
 mark {
     background: #ff0;
@@ -194,6 +197,14 @@ th {
 .auto-margin {
     margin:auto
 }
+.code {
+  border:1px solid #e1e4e8;
+  border-radius: 6px;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  font-size: 12px;
+  margin:20px 0 10px 0;
+  padding:8px;
+}
 .flex-column {
     display:flex;
     flex-direction:column
@@ -228,6 +239,11 @@ th {
     background-color: #fff;
     border-color: #52a8ff;
     color: #52a8ff;
+}
+.page-body {
+  margin:100px auto;
+  max-width:800px;
+  width:100%
 }
 .right-align {
     margin-right: 20px;
