@@ -73,7 +73,7 @@ To style only certain buttons, use additional classes:
 
 # Styling a widget window
 
-Styling "muntra-widget" class:
+If attribute muntra_without_modal = "true", then use muntra-widget styles to style the widget window:
 ````
 .muntra-widget {
   width: 100%;
