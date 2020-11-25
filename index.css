@@ -251,7 +251,5 @@ th {
 }
 .muntra-widget.without-modal {
     width: 100%;
-    height: 500px;
-    border: 1px solid lightgrey;
-    border-radius: 15px;
+    height: 100%;
   }
