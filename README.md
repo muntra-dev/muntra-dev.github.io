@@ -17,6 +17,7 @@ First, place the <div> tag in the site markup, with the following attributes:
   - `muntra_procedure_id`: "procedure_id" (Use it to assign a default procedure),
   - `muntra_referral_source`: "referral_source" (Use if you want your booking to be made using a referral source),
   - `muntra_button_text`: "Booking button" (Use it to change the button text. The default button text is "Boka tid"),
+  - `muntra_without_modal`: "true" (Use it to display a widget without a button and outside the modal window),
   
   Example: 
   
@@ -67,5 +68,29 @@ To style only certain buttons, use additional classes:
     background-color: #fff;
     border-color: #52a8ff;
     color: #52a8ff;
+}
+````
+
+# Styling a widget window
+
+If attribute muntra_without_modal = "true", then use muntra-widget styles to style the widget window:
+````
+.muntra-widget {
+  width: 100%;
+  max-width: 720px;
+  height: 500px;
+  border: 1px solid lightgrey;
+  border-radius: 15px;
+}
+````
+
+To style only a specific widget, use additional classes:
+````
+.muntra-widget.without-modal {
+  width: 100%;
+  max-width: 720px;
+  height: 500px;
+  border: 1px solid lightgrey;
+  border-radius: 15px;
 }
 ````
