@@ -249,3 +249,9 @@ th {
     margin-right: 20px;
     text-align: right;
 }
+.without-modal {
+    width: 100%;
+    height: 500px;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+  }
