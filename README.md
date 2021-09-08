@@ -1,5 +1,8 @@
 Muntra react widget
 
+# Important Info
+- For the widget to work the origin point must be first whitelisted by the server, the muntra_referral_source attribute and the whitelisting needs to be an exact match of the origin point. If whitelisting is missing or if muntra_referral_source is incorrect an error showing the correct origin point will be shown in the network tab of the browser inspector. This is done by Muntra-personel.
+
 # Placing a widget on a page
 
 First, place the <div> tag in the site markup, with the following attributes:
