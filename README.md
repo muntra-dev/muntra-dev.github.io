@@ -1,19 +1,19 @@
 # Most recent info found at the [Muntra Docs](https://muntra-dev.github.io/muntra-docs)
 
 # Important Info
-- For the widget to work the origin point must be first whitelisted by the server, the muntra_referral_source attribute and the whitelisting needs to be an exact match of the origin point. If whitelisting is missing or if muntra_referral_source is incorrect an error showing the correct origin point will be shown in the network tab of the browser inspector. This is done by Muntra-personel.
+- For the widget to work the origin point must be first whitelisted by the server, the `muntra_referral_source` attribute and the whitelisting needs to be an exact match of the origin point. If whitelisting is missing or if `muntra_referral_source` is incorrect an error showing the correct origin point will be shown in the network tab of the browser inspector. This is done by Muntra personnel.
 
-# Placing a widget on a page
+# Placing a Widget on a Page
 
-First, place the <div> tag in the site markup, with the following attributes:
+First, place the `<div>` tag in the site markup, with the following attributes:
 
-Required attributes:
+## Required Attributes
 
 - `class`: "muntra-widget",
 - `key`: "id" (This is a unique id for each widget. If you place more than one widget, then you should assign them the corresponding unique id, for example, 0,1,2 ...),
 - `muntra_clinic_id`: "clinic_id" (Id of the clinic from which you'd like to get caregivers).
 
-Optional attributes:
+## Optional Attributes
 
 - `muntra_caregiver_id`: "caregiver_id" (If you want to get only a specific caregiver for this clinic, then enter the caregiver id here),
 - `muntra_role_id`: "role_id" (Use it to filter out caregivers by role),
@@ -21,7 +21,8 @@ Optional attributes:
 - `muntra_referral_source`: "referral_source" (Use if you want your booking to be made using a referral source),
 - `muntra_button_text`: "Booking button" (Use it to change the button text. The default button text is "Boka tid"),
 - `muntra_without_modal`: "true" (Use it to display a widget without a button and outside the modal window),
-- `goal_page_url`: "https://www.yourExampleGoalPageURL.com" (Use it to redirect the user to a goal page of your choice after they have successfully booked a time)
+- `goal_page_url`: "https://www.yourExampleGoalPageURL.com" (Use it to redirect the user to a goal page of your choice after they have successfully made an appointment)
+- `show_caregiver`: "true" (Use it to hide caregivers)
 
 Example:
 
@@ -37,7 +38,7 @@ Secondly, place a tag:
 
 At the end of the body, to connect the widget to the page.
 
-Expample of connecting widget to a page:
+Example of connecting widget to a page:
 
 ```
 <body>
