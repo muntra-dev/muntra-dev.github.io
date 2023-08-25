@@ -1,1 +1,1 @@
-# More info found at the [Muntra Docs](https://muntra-dev.github.io/muntra-docs)
+# More info found [here](https://muntra-dev.github.io/muntra-docs)
